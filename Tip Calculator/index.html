@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calcualtor</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class = "h-screen">
+    <div class= "flex items-center justify-center h-screen">
+
+        <div class="h-[400px] w-[600px] bg-slate-600 rounded-md">
+            <h1 class="text-3xl flex items-center justify-center  text-white">Tip Calcualtor</h1>
+            <p class="mx-5 my-5 text-white">Enter the bill amount and tip percentage to claculate the total</p>
+            <p class="mx-5 my-5 text-white">Bill amount:</p>
+            <input class="mx-5 w-[300px] " id="bill" type="number">
+            <p class="mx-5 my-3 text-white">Tip percentage:</p>
+            <input class="mx-5 w-[300px]" id="tip" type="number" name="" id="">
+            <br>
+            <button class="bg-green-400 rounded-sm mx-5 my-3 w-[300px] " onclick="calculate()">Calculate</button>
+            <br>
+            <div class="flex items-center text-white">
+                <label class="mx-5">Total </label> 
+                <h4 class="mx-0 font-bold" id="sum" >.</h4>
+                
+            </div>
+            <div class="flex items-center text-white">
+                <label class= "mx-5" for="">Tip Amount</label>
+                <h4 class="mx-0 font-bold" id="tipamount">.</h4>
+            </div>
+            
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
