@@ -15,7 +15,7 @@ html, body {
     max-width: 300px; /* Ensure it doesn’t go too wide on large screens */
     height: auto; /* Let height adjust naturally */
     background-color: beige;
-    top: 50%;
+    top: 30%;
     left: 50%;
     position: relative;
     transform: translate(-50%, -50%);
